@@ -2,7 +2,7 @@
 #define PARALLEL
 #define NUM_OF_THREADS 2
 #include <vector>
-#include "shells/OpenCilk-9.0.1-Linux/lib/clang/9.0.1/include/cilk/cilk.h"
+#include "cilk.h"
 #include <pthread.h>
 #include <queue>
 #include <omp.h>
